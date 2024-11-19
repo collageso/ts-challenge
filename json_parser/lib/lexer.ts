@@ -1,15 +1,15 @@
 type TokenType =
-  | "LeftBrace"
-  | "RightBrace"
-  | "LeftBracket"
-  | "RightBracket"
-  | "String"
-  | "Number"
+  | "BraceOpen"
+  | "BraceClose"
+  | "BracketOpen"
+  | "BracketClose"
   | "Comma"
   | "Colon"
+  | "Null"
   | "True"
   | "False"
-  | "Null";
+  | "Number"
+  | "String";
 
 type Token = {
   type: TokenType;
