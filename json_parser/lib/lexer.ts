@@ -15,5 +15,3 @@ type Token = {
   type: TokenType;
   value: string;
 };
-
-console.log("git test");

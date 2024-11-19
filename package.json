@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:all": "jest --watch",
-    "test:01": "jest --watch 01_json_parser"
+    "test:json_parser": "jest --watch json_parser"
   },
   "keywords": [],
   "author": "",
